@@ -1,141 +1,111 @@
 {
   "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "name": "Physical Sciences",
+    "link": "https://www.vlab.co.in/broad-area-physical-sciences",
+    "code": "PHYSCI"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
+  "lab": "Food Chemistry Lab",
+  "lab_display_name": "Food Chemistry Lab",
+  "phase": "3-ext",
+  "collegeName": "IITK",
+  "baseUrl": "fc-iitk.vlabs.ac.in",
+  "introduction": "In this food chemistry virtual laboratory, students will develop a comprehensive understanding of the fundamental physico-chemical properties and reactions occurring in food systems. The lab is designed to bridge theoretical concepts with practical applications, enabling students to analyze and interpret various changes in foods. Students will perform experiments related to key food chemistry principles such as analysis of potable water quality, effect of moisture on food stability, non-enzymatic browning reactions, starch hydrolysis, oxidative stability for oils/fat and protein functionality and related reactions. Through these experiments, they will gain hands-on experience in evaluating the role of water in food systems, and assessing physico-chemical reactions that influence food quality, appearance, and nutritional value. The laboratory also emphasizes the study of macromolecules such as proteins and carbohydrates, focusing on their structural and functional properties in food matrices. Additionally, students will investigate reaction kinetics and mechanisms, such as starch hydrolysis and browning reactions, to understand how processing conditions affect food characteristics. Overall, this lab provides a strong foundation in food chemistry by integrating analytical techniques with real-world applications in food processing, quality control, and product development.",
+  "experiments": [
+  {
+    "name": "Analysis of water for potable and food purposes",
+    "short-name": "food-purposes",
+    "repo": "https://github.com/virtual-labs/exp-food-purposes-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Moisture content in foods in relation to their stability",
+    "short-name": "moisture-content",
+    "repo": "https://github.com/virtual-labs/exp-moisture-content-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Non-enzymatic browning reactions and its determination",
+    "short-name": "non-enzymatic-browning",
+    "repo": "https://github.com/virtual-labs/exp-non-enzymatic-browning-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Determination of rate/ extent of hydrolysis of sucrose/starch",
+    "short-name": "hydrolysis-of-sucrose",
+    "repo": "https://github.com/virtual-labs/exp-hydrolysis-of-sucrose-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Determination of free fatty acid content in fats and oils",
+    "short-name": "free-fatty-acid",
+    "repo": "https://github.com/virtual-labs/exp-free-fatty-acid-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Detection and estimation of oxidative rancidity in fats/oils",
+    "short-name": "oxidative-rancidity-in-fats",
+    "repo": "https://github.com/virtual-labs/exp-oxidative-rancidity-in-fats-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Determination of heat stability of vitamin C",
+    "short-name": "heat-stability-of-vitamin-c",
+    "repo": "https://github.com/virtual-labs/exp-heat-stability-of-vitamin-c-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Study of some reactions of proteins",
+    "short-name": "reactions-of-proteins",
+    "repo": "https://github.com/virtual-labs/exp-reactions-of-proteins-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Study of some processing changes in proteins",
+    "short-name": "processing-changes-in-proteins",
+    "repo": "https://github.com/virtual-labs/exp-processing-changes-in-proteins-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Study of some functional properties of proteins",
+    "short-name": "functional-properties-of-proteins",
+    "repo": "https://github.com/virtual-labs/exp-functional-properties-of-proteins-iitk",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
+],
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      " 1st Year/ 2nd Year[highest priority for development]",
+"3rd Year/ 4th Year [next higher priority for development]"
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      ""
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "<ul><li>Understand the principles of water hardness and its significance in food processing along with effect of moisture content on food stability.</li><li>Study the mechanism and factors affecting non-enzymatic browning reactions and degradation of vitamin C in food systems.</li><li>Investigate the reactions of macromolecules such as kinetics of starch hydrolysis, and oxidative stability of fats/oils.</li><li>Evaluate functional properties of proteins and some processing changes in protein<li></ul>",
   "courseAlignment": {
     "description": "The syllabi of this lab aligns to the following universities in India.",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+      "AKTU, Lucknow; KFT452; B. Tech. Food Technology",
+"HBTU, Kanpur; TFT357; B. Tech. Food Technology",
+"Tezpur University, Aasam; FE 205; B. Tech. Food Technology",
+"Anand Agricultural University; FQA 112; B. Tech. Food Technology",
+"CFTRI Mysore; FT 001; B. Tech. Food Technology",
+"NIFTEM, Haryana; FST 211; B. Tech Food Science & Technology",
+"Sant Longowal Institute of Engineering & Technology, Longowal, Punjab; PCFT-515; B.E. Food Engg & Technology",
+"Guru Jambheshwar University of Science and Technology, Hisar; FT201-P; B. Tech: Food Technology",
+"Guru Nanak Dev University, Amritsar; FST-205; B. Tech: Food Technology",
+"Islamic University of Science & Technology, Pulwama, Jammu & Kashmir; DFT191C; B. Tech: Food Technology"
     ]
-
+  }
  
 }
