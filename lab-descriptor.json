@@ -50,7 +50,7 @@
     "name": "Detection and estimation of oxidative rancidity in fats/oils",
     "short-name": "oxidative-rancidity-in-fats",
     "repo": "https://github.com/virtual-labs/exp-oxidative-rancidity-in-fats-iitk",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
